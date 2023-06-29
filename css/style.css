@@ -1,0 +1,103 @@
+/* tentar fazer todos os html do site utilizar unica e exclusivamente 1 arquivo CSS, para padronizar tudo */
+/* modelo do CSS: */
+/*seletor {
+    propriedade: valor
+} */
+    /* maximo recomendado: propriedades*7 */
+/*h1 {
+    font-family: "YouTube Sans","Roboto",sans-serif;
+    color: red;
+} */
+/* id=elemento unico
+   class=multiplos elementos, pode existir mais de uma class no item */
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+header {
+    max-width: 100%;
+    height: 70px;
+    background-color: #16161d;
+}
+.flexicon {
+    align-items: center; /*align-items é dependente do height*/
+    display: flex;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+.imagem {
+    width: 55px;
+    height: auto;
+}
+/* Aula 26/06/2023 */
+/* Forma mais antiga de Flex-box */
+.container {
+    align-items: center;
+    background-color: #1b0a0e;
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    border: 4px groove #002220;
+    border-radius: 12px;
+    height: 40px;
+    padding: 0px 15px;
+    width: 450px;
+}
+label {
+    color: aliceblue;
+    font-weight: bold;
+}
+button {
+    background-color: #002220;
+    border: 2px solid #16161d;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 40px;
+    transition: 0.6s ease;
+    width: 250px; 
+}
+button:hover {
+    background-color: #165b57;
+    border: 6px solid #002220;
+    transition: 0.6s ease;
+}
+
+
+
+
+
+
+
+
+
+
+#txt1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+#txt2 {
+    font-family: cursive;
+    color: blue;
+}
+#txt3 {
+    font-size: 50px;
+    color: #0f0;
+}
+.direita {
+    text-align: right;
+}
+.centro {
+    text-align: center;
+}
+.sombra {
+    text-shadow: 5px 5px 10px #16161d; /* dark mode=#16161d=eigengrau ou eigenlicht ou dark light ou cinza celebrau*/
+}
